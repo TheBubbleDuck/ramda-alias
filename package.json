@@ -1,0 +1,22 @@
+{
+  "name": "ramda-alias",
+  "version": "0.1.0",
+  "description": "Alias for ramda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aourin/ramda-alias.git"
+  },
+  "keywords": [
+    "ramda"
+  ],
+  "author": "Harry Ho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aourin/ramda-alias/issues"
+  },
+  "homepage": "https://github.com/Aourin/ramda-alias"
+}
