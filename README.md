@@ -5,11 +5,11 @@ The alias temporary fix for a practical functional library for Javascript progra
 
 Why ramda-alias?
 ----------
-Because things keep changing and deprecating prior to the big 1.0.0 release. People are having issues with loss/replaced functions without warning. Here is a decorator for the aliases. 
+Because things keep changing and deprecating prior to the big 1.0.0 release. People are having issues with loss/replaced functions without warning. Here is a decorator for the aliases.
 
-Add to your package.json as ramda-alias 
+Add to your package.json as ramda-alias
 ```
-"ramda-alias" : git+ssh://git@github.com:Aourin/ramda-alias.git
+"ramda-alias" : "git+ssh://git@github.com:Aourin/ramda-alias.git"
 ```
 This is temporary until I can get an npm package released.
 
@@ -28,3 +28,5 @@ Then in the console:
 var ramda = require('ramda');
 require('ramda-alias')(ramda);
 ```
+
+If a CommonJS environment isn't detected, the module will attempt to alias the methods on a global Ramda instance (on window.R).
