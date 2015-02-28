@@ -24,3 +24,23 @@ require('ramda-alias')(ramda);
 ```
 
 If a CommonJS environment isn't detected, the module will attempt to alias the methods on a global Ramda instance (on window.R).
+
+
+Current Alias Map
+```javascript
+var ALIAS_MAP = {
+    foldl : 'reduce',
+    foldr : 'reduceRight',
+    foldlIndexed : 'reduceIndexed',
+    foldrIndexed : 'reduceRightIndexed',
+    lPartial  : 'partial',
+    mapAccumL : 'mapAccum',
+    mapAccumR : 'mapAccumRight',
+    mixin     : 'merge',
+    pCompose  : 'composeP',
+    pPipe     : 'pipeP',
+    rPartial  : 'partialRight',
+    scanl     : 'scan',
+    unfoldr   : 'unfold'
+  };
+```
